@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: Sora;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.446);
+}
+
+.boxNavOne {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff159;
+    height: 70px;
+}
+
+.boxNavOne>div {
+    display: flex;
+    width: 80vw;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.boxNavOne>div>img {
+    height: 30px;
+}
+
+.boxNavTwo {
+    display: flex;
+    border-top: 2px solid white;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff159;
+    height: 50px;
+}
+
+.boxNavTwo>div {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+    height: 70px;
+}
+
+input {
+    width: 500px;
+    outline: none;
+    font-size: 15px;
+    height: 40px;
+    border: 1px solid rgba(211, 211, 211, 0.564);
+    padding: 10px;
+    border-right: none;
+}
+
+button {
+    height: 40px;
+    font-size: 15px;
+    width: 80px;
+    border: 1px solid rgba(211, 211, 211, 0.564);
+    padding: 10px;
+    background-color: white;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+button>img {
+    height: 20px;
+}
+
+button>p {
+    font-size: 23px;
+    height: 30px;
+    color: rgba(211, 211, 211, 0.564);
+}
+
+.boxInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.boxContainer {
+    width: 16vw;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+#groupBox {
+    background-color: white;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.boxContainer>img {
+    width: 35px;
+    padding: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.564);
+    border-radius: 50%;
+}
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#buttonCotainer {
+    border: none;
+}
+
+#buttonCotainer>img {
+    height: 35px;
+}
