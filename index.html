@@ -9,66 +9,106 @@
 </head>
 
 <body>
-    <nav>
-        <div class="boxNavOne">
-            <div>
-                <img src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.2/mercadolibre/logo-pt__large_plus.png"
-                    alt="">
-                <div class="boxInput">
-                    <input type="text" placeholder="Buscar produtos, marcas e muito mais...">
-                    <button>
-                        <p>|</p><img src="https://cdn-icons-png.flaticon.com/512/16/16492.png" alt="">
-                    </button>
+    <header>
+        <nav>
+            <div class="boxNavOne">
+                <div>
+                    <img src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.2/mercadolibre/logo-pt__large_plus.png"
+                        alt="">
+                    <div class="boxInput">
+                        <input type="text" placeholder="Buscar produtos, marcas e muito mais...">
+                        <button>
+                            <p>|</p><img src="https://cdn-icons-png.flaticon.com/512/16/16492.png" alt="lupa">
+                        </button>
+                    </div>
+                    <a href="./cadastrar.html"><button id="botao">Cadastrar</button></a>
                 </div>
             </div>
-        </div>
-        <div class="boxNavTwo">
-            <div>
-                <a href="">Categorias</a>
-                <a href="">Ofertas do Dia</a>
-                <a href="">Histórico</a>
-                <a href="">Moda</a>
+            <div class="boxNavTwo">
+                <div>
+                    <a href="./pages/Categ.html">Categorias</a>
+                    <a href="./pages/Ofertas.html">Ofertas do Dia</a>
+                    <a href="./pages/historico.html">Histórico</a>
+                    <a href="./pages/Moda.html">Moda</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <div class="container">
-        <div id="groupBox">
-            <div class="boxContainer" style="border-left: 5px solid blue;">
-                <div style="margin-left: 10px;" class="boxText">
-                    <h2>Pagamento rápido e seguro</h2>
-                    <p>Com mercado pago</p>
+    <main>
+        <section>
+            <div class="container" style="width: 100%;">
+                <div id="groupBox">
+                    <div class="boxContainer" style="border-left: 5px solid blue;">
+                        <div style="margin-left: 10px;" class="boxText">
+                            <h2>Pagamento rápido e seguro</h2>
+                            <p>Com mercado pago</p>
+                        </div>
+                    </div>
+                    <div class="boxContainer">
+                        <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/06/Gr%C3%A1fico-Cart%C3%A3o-de-Cr%C3%A9dito-PNG.png"
+                            alt="representação de um cartão">
+                        <div class="boxText">
+                            <h2>Até 10 parcelas sem juros</h2>
+                            <p>Ver mais</p>
+                        </div>
+                    </div>
+                    <div class="boxContainer">
+                        <img src="https://cdn-icons-png.flaticon.com/512/64/64979.png" alt="bolsa de dinheiro">
+                        <div class="boxText">
+                            <h2>Parcelamento sem cartão</h2>
+                            <p>Conheça o mercado crédito</p>
+                        </div>
+                    </div>
+                    <div class="boxContainer">
+                        <img src="https://cdn.icon-icons.com/icons2/3245/PNG/512/pix_icon_198027.png"
+                            alt="representação do pix">
+                        <div class="boxText">
+                            <h2>Via pix</h2>
+                            <p>Ver mais</p>
+                        </div>
+                    </div>
+                    <div style="width: 6vw;">
+                        <button id="buttonCotainer">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1004/1004759.png" alt="botão">
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="boxContainer">
-                <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/06/Gr%C3%A1fico-Cart%C3%A3o-de-Cr%C3%A9dito-PNG.png"
-                    alt="">
-                <div class="boxText">
-                    <h2>Até 10 parcelas sem juros</h2>
-                    <p>Ver mais</p>
+        </section>
+    </main>
+
+    <section class="containerProd">
+        <div class="AgroupProd">
+            <h3 style="text-align: center; font-size: 40px;">Produtos</h3>
+            <div style="display: flex; gap: 10px;">
+                <div class="boxs">
+                    <img src="https://imgs.casasbahia.com.br/55029401/1xg.jpg?imwidth=500" alt="" height="240px">
+                    <p class="preco" style="text-decoration: line-through;">R$ 5500, 00</p>
+                    <h3>Iphone12</h3>
+                    <p class="preco">R$ 3000, 00</p>
                 </div>
-            </div>
-            <div class="boxContainer">
-                <img src="https://cdn-icons-png.flaticon.com/512/64/64979.png" alt="">
-                <div class="boxText">
-                    <h2>Parcelamento sem cartão</h2>
-                    <p>Conheça o mercado crédito</p>
+                <div class="boxs">
+                    <img src="https://imgs.casasbahia.com.br/55029401/1xg.jpg?imwidth=500" alt="" height="240px">
+                    <p class="preco" style="text-decoration: line-through;">R$ 5500, 00</p>
+                    <h3>Iphone12</h3>
+                    <p class="preco">R$ 3000, 00</p>
                 </div>
-            </div>
-            <div class="boxContainer">
-                <img src="https://cdn.icon-icons.com/icons2/3245/PNG/512/pix_icon_198027.png" alt="">
-                <div class="boxText">
-                    <h2>Via pix</h2>
-                    <p>Ver mais</p>
+                <div class="boxs">
+                    <img src="https://imgs.casasbahia.com.br/55029401/1xg.jpg?imwidth=500" alt="" height="240px">
+                    <p class="preco" style="text-decoration: line-through;">R$ 5500, 00</p>
+                    <h3>Iphone12</h3>
+                    <p class="preco">R$ 3000, 00</p>
                 </div>
-            </div>
-            <div style="width: 6vw;">
-                <button id="buttonCotainer">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1004/1004759.png" alt="">
-                </button>
+                <div class="boxs">
+                    <img src="https://imgs.casasbahia.com.br/55029401/1xg.jpg?imwidth=500" alt="" height="240px">
+                    <p class="preco" style="text-decoration: line-through;">R$ 5500, 00</p>
+                    <h3>Iphone12</h3>
+                    <p class="preco">R$ 3000, 00</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>

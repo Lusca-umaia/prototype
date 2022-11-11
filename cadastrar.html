@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="./pages/style.css">
+    <link rel="stylesheet" href="./cad.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="boxNavOne">
+                <div>
+                    <img src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.2/mercadolibre/logo-pt__large_plus.png"
+                        alt="">
+                    <div class="boxInput">
+                        <input type="text" placeholder="Buscar produtos, marcas e muito mais...">
+                        <button>
+                            <p>|</p><img src="https://cdn-icons-png.flaticon.com/512/16/16492.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="boxNavTwo">
+                <div>
+                    <a href="./index.html">Página inicial</a>
+                    <a href="./Categ.html">Categorias</a>
+                    <a href="./Ofertas.html">Ofertas do Dia</a>
+                    <a href="./historico.html">Histórico</a>
+                    <a href="./Moda.html">Moda</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h1 style="text-align: center; margin-top: 20px;">Cadastrar</h1>
+        <div class="inputsFlex">
+            <form action="">
+                <div class="agroupInput">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" class="NewInput" placeholder="Lucas Maia">
+                </div>
+                <div class="agroupInput">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="NewInput" placeholder="lucasmaia@gmail.com">
+                </div>
+                <div class="agroupInput">
+                    <label for="senha">Senha</label>
+                    <input type="text" id="senha" class="NewInput" placeholder="********">
+                </div>
+                <div class="agroupInput">
+                    <label for="senhaN">Repetir a senha</label>
+                    <input type="text" id="senhaN" class="NewInput" placeholder="********">
+                </div>
+                <div class="agroupInput">
+                    <label>Sexo:</label>
+                    <select>
+                        <option value="M">M</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+                <input type="submit" id="botao">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
