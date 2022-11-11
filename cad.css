@@ -1,0 +1,56 @@
+.inputsFlex {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+    width: 85px !important;
+}
+
+.NewInput {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.agroupInput {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    width: 50px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    background: white;
+}
+
+#botao {
+    width: 585px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+#botao:hover {
+    background-color: black;
+    color: white;
+}
